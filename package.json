@@ -8,6 +8,10 @@
     "eslint-plugin",
     "contains"
   ],
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/iambrandonn/eslint-plugin-contains"
+  },  
   "author": "Brandon Nicholls",
   "main": "index.js",
   "scripts": {
