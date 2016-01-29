@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-contains",
+  "version": "0.0.1",
+  "description": "Checks that the given text exists in the file",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "contains"
+  ],
+  "author": "Brandon Nicholls",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
