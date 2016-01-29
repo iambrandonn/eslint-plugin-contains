@@ -1,11 +1,13 @@
 # eslint-plugin-contains
-========================
+
 An ESLint rule which will search for a given string and fail with the given error if not found
 
-**To use**:
+## To use:
+
+#### Install the plugin
 `npm install eslint-plugin-contains --save-dev`
 
-Modify your .eslintrc file:
+#### Modify your .eslintrc file:
 * Add the plugin to the plugins array like this:
 ```
     "plugins": [
@@ -19,4 +21,4 @@ Modify your .eslintrc file:
     }
 ```
 
-Now run eslint.
+Now verify the rule is checking as desired.
