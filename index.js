@@ -10,7 +10,7 @@ module.exports = {
         var sourceCode = context.getSourceCode();
         var fileContent = sourceCode.getText();
 
-        if (fileContent.indexOf(options.toFind) < 0) {
+        if (fileContent.indexOf(options.toFind) !== -1) {
           context.report({
             message: options.errorMessage,
             loc: {
